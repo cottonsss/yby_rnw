@@ -67,11 +67,11 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 
 /********** 롤링 메세지 **********/
 /* 메세지 내용 */
-.rolling_wrap{position:relative; z-index:100; width:100%; height:33px; margin-top:90px; padding:3px 8px 0 8px; box-sizing:border-box;}
+.rolling_wrap{position:relative; z-index:100; width:100%; height:123px; padding:93px 8px 0 8px; box-sizing:border-box;}
 
 .roll_bg_modal{display:none; position:fixed; top:85px; bottom:0; left:0; right:0; background:rgba(0,0,0,0.6);}
-.dot_fix{position:absolute; z-index:10; top:4px; left:9px; width:34px; height:28px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_rollmsg.png) no-repeat 8px 6px; background-size:20px 16px;}
-.btn_toggle{position:absolute; top:4px; right:6px; width:30px; height:28px; line-height:28px; text-align:center; color:#8468a4; font-size:11px; cursor:pointer;}
+.dot_fix{position:absolute; z-index:10; top:94px; left:9px; width:34px; height:28px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_rollmsg.png) no-repeat 8px 6px; background-size:20px 16px;}
+.btn_toggle{position:absolute; top:94px; right:6px; width:30px; height:28px; line-height:28px; text-align:center; color:#8468a4; font-size:11px; cursor:pointer;}
 
 .rolling_u{position:relative; width:100%; height:100%; border-radius:3px; border:1px solid #d4d4d4; box-sizing:border-box; background-color:#fff; overflow:hidden; transition:all 0.3s ease-in-out; -webkit-transition:all 0.3s ease-in-out; -ms-transition:all 0.3s ease-in-out; -o-transition:all 0.3s ease-in-out; -moz-transition:all 0.3s ease-in-out;}
 .rolling_l{width:100%; height:auto; line-height:28px; padding:0 5px 0 34px; box-sizing:border-box; color:#868686; font-size:13px; font-weight:700; letter-spacing:-0.5px;}
