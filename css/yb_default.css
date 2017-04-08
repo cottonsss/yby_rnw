@@ -1,0 +1,60 @@
+@charset "utf-8";
+/********** 초기화 **********/
+html, body, div, p, span, iframe, h1, h2, h3, h4, h5, h6, address, img, em, b, i, small, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figcaption, figure, footer, header, hgroup, menu, nav, section, audio, video {margin:0; padding:0; border:0; outline:0; font-size:100%; vertical-align:baseline; background:transparent; -webkit-overflow-scrolling:touch;}
+html, body {width:100%; height:100%;}
+article, aside, figcaption, figure,footer, header, hgroup, menu, nav, section{display:block;}
+nav, ul, ol, li {list-style:none;}
+input, select {vertical-align:middle;}
+fieldset, legend {border:0 none;}
+button, input, optgroup, select, textarea {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; color:inherit; font:inherit; border:0 none;}
+table {border-collapse:collapse; border-spacing:0;}
+td,th {padding:0}
+b,strong {font-weight:bold;}
+a {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; display:block; color:inherit; text-decoration:none; cursor:pointer;  -webkit-tap-highlight-color:rgba(255, 255, 255, 0); -webkit-tap-highlight-color: transparent;}
+a:link, a:hover, a:active. a:visited {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; display:block; color:inherit; text-decoration:none;}
+p {margin:0; padding:0;}
+
+*{margin:0; padding:0;}
+.hidden{display:none;}
+
+/********** 폰트 **********/
+body{font-family:notokr-regular,sans-serif; font-weight:300; color:#272727; font-size:15px;  letter-spacing:-0.5px;}
+
+/********** 여보야 기본 **********/
+#wrap{position:relative; margin:0; padding:0; width:100%; height:auto; background-color:#fff;}
+#header{position:fixed; top:0; left:0; z-index:500; margin:0; padding:0; width:100%; height:45px; background-color:#8468a4;}
+#header:after{content:""; display:block; clear:both;}
+
+/********** 풋터 **********/
+footer{position:relative; z-index:250; left:0; bottom:0; width:100%; height:auto; padding:3px 0; background-color:#636467; color:#fff; text-align:center; font-size:13px; line-height:20px;}
+
+/********** 위로 올리기 **********/
+.go_up{position:fixed; right:10px; bottom:15px; z-index:500; margin-bottom:0px; display:inline;}
+@keyframes bounce {
+	from{transform:translateY(5px);}
+	40%{transform:translateY(-10px);}
+	to{ transform:translateY(0px);}
+}
+@-webkit-keyframes bounce {
+	from{ -webkit-transform:translateY(5px); }
+	40%{ -webkit-transform:translateY(-10px); }
+	to{ -webkit-transform:translateY(0px); }
+}
+@-ms-keyframes bounce {
+	from{ -ms-transform:translateY(5px); }
+	40%{ -ms-transform:translateY(-10px); }
+	to{ -ms-transform:translateY(0px); }
+}
+@-moz-keyframes bounce {
+	from{ -moz-transform:translateY(5px); }
+	40%{ -moz-transform:translateY(-10px); }
+	to{ -moz-transform:translateY(0px); }
+}
+@-o-keyframes bounce {
+	from{ -o-transform:translateY(5px); }
+	40%{ -o-transform:translateY(-10px); }
+	to{ -o-transform:translateY(0px); }
+}
+.go_up:active{animation:bounce 0.2s linear 1; -webkit-animation:bounce 0.2s linear 1; -ms-animation:bounce 0.2s linear 1; -moz-animation:bounce 0.2s linear 1; -o-animation:bounce 0.2s linear 1;}
+.go_up_active{animation:bounce 0.2s linear 1; -webkit-animation:bounce 0.2s linear 1; -ms-animation:bounce 0.2s linear 1; -moz-animation:bounce 0.2s linear 1; -o-animation:bounce 0.2s linear 1;}
+

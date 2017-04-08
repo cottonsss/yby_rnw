@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="ALL" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1 days" />
+<meta name="subject" content="여보야" />
+<meta name="keywords" content="여보야, yeoboya, 결혼, 재혼" />
+<meta name="description" content="결혼, 재혼, 평생 배우자를 찾는 스마트한 방법, 모바일 다운로드 제공" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta name="HandheldFriendly" content="true">
+<meta name="mobile-web-app-capable" content="yes">
+<title>여보야</title>
+
+<link rel="shortcut icon" href="http://image.yeoboya.com/imgs/2016/img/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://image.yeoboya.com/imgs/2016/img/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="css/noto_font.css" type="text/css">
+<link rel="stylesheet" href="css/yb_default.css" type="text/css">
+<link rel="stylesheet" href="css/yb_main_list.css" type="text/css">
+<script src="http://image.yeoboya.com/imgs/2016/js/jquery-3.1.1.min.js"></script>
+<script src="js/m_main.js" type="text/javascript"></script>
+</head>
+<body ontouchstart="">
+<div id="wrap">
+    <!-- 공통 헤더 -->
+	<div id="header">
+    	<h1 class="main_logo">
+        	<a href="http://m.yeoboya.com"><img src="http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/img_logo.png" width="43" height="34" alt="여보야로고"></a>
+        </h1>
+        <!-- 전체보기 -->
+        <div class="dropmenu_wrap">
+        	<a href="#" class="h_btn btn_menu"  ontouchstart="">
+            	전체보기
+            	<img src="http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/badge_all_new.png" width="20" height="20" class="new_icon" alt="새메세지/프로필열람회원알림" >
+            </a>
+            <ul class="dropmenu_container hidden">
+            	<li>
+                	<a href="#" ontouchstart="">
+                    	<span class="dropmenu">메세지함</span>
+                        <div class="count_alim">
+                            <span class="alim1">99</span>
+                        </div><!-- count_alim -->
+                    </a>
+                </li>
+                <li>
+                	<a href="#" ontouchstart="">
+                    	<span class="dropmenu">내프로필열람회원</span>
+                        <div class="count_alim">
+                            <span class="alim1">5</span>
+                        </div><!-- count_alim -->
+                    </a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">내가 본 프로필</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">관심회원</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">차단회원관리</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">내아이템관리</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">1:1문의하기</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">공지사항</span></a>
+                </li>
+                <li>
+                	<a href="#"><span class="dropmenu" ontouchstart="">더보기</span></a>
+                </li>
+            </ul>
+        </div>
+        <!-- // 전체보기 -->
+        <a href="#" class="h_btn btn_write" ontouchstart="">
+        	글쓰기
+        </a>
+    </div>
+    <!-- // 공통 헤더 -->
+    <div id="bg_black1" class="hidden"></div><!-- 배경 모달 -->
+    <!-- 필터 영역 -->
+    <div id="nav">
+    	<ul class="filter">
+        	<li>
+                <a href="#" ontouchstart=""><span>전체</span></a>
+                <div class="dropslct_wrap">
+                    <div class="dropslct dropslct_active"><span>전체</span></div>
+                    <div class="dropslct">결혼</div>
+                    <div class="dropslct">재혼</div>
+                </div>
+            </li>
+            <li>
+                <a href="#" ontouchstart=""><span>최신순</span></a>
+            </li>
+            <li>
+                <a href="#" ontouchstart=""><span>성별</span></a>
+                <div class="filter_tri tri_active"></div>
+                <div class="dropslct_wrap">
+                    <div class="dropslct dropslct_active"><span>전체</span></div>
+                    <div class="dropslct">여성</div>
+                    <div class="dropslct">남성</div>
+                </div>
+            </li>
+            <li>
+                <a href="#" ontouchstart=""><span>나이</span></a>
+            </li>
+            <li>
+                <a href="#" ontouchstart=""><span>성씨</span></a>
+            </li>
+        </ul>
+	</div>
+    <!--  //필터 영역 -->
+    <!-- 롤링 메세지 -->
+    <div class="rolling_wrap">
+       <div class="roll_bg_modal"></div>
+       <div class="dot_fix"></div>
+       <ul class="rolling_u">
+          <li class="rolling_l">
+              <p>여보야는 2015년 7월에 오픈했습니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p>2016년 10월까지 약 7만9300여 명이 사용했습니다!</p>
+          </li>
+          <li class="rolling_l">
+              <p>여보야는 <span class="fc_red">모바일어플&amp;웹&amp;PC웹</span></p>
+              <p>에서 사용하실 수 있습니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p>핸드폰 <span class="fc_red">번호당 오직 한 분만</span> 가입할 수 있습니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p><span class="fc_red">프로필 작성시 카톡 아이디나 전화번호 등록시</span></p>
+              <p><span class="fc_red">이용정지</span>됩니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p><span class="fc_red">금전요구, 음란, 저속어, 폭언</span>등을 사용시 바로</p>
+              <p><span class="fc_red">이용정지/강퇴</span> 됩니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p><span class="fc_red">차단한 회원</span>의 프로필은 표시되지 않고,</p>
+              <p>메시지도 주고 받을 수 없습니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p>문의, 개선사항은 <span class="fc_red">1:1문의하기</span>를</p>
+              <p>이용해주시기 바랍니다.</p>
+          </li>
+          <li class="rolling_l">
+              <p><span class="fc_red">GPS 상태</span>를 확인해주세요! </p><p>GPS가 꺼져있거나 수신이 안될경우</p>
+              <p>거리정보가 지역으로 표기됩니다.</p>
+          </li>
+       </ul>
+       <div class="btn_toggle">
+       ▼
+       </div>
+    </div>
+    <!-- // 롤링 메세지 -->
+    <!-- 메인 리스트 -->
+    <div id="content">
+    	<ul class="yeo_list">
+        	<li>
+                <!-- 사진 영역 -->
+            	<div class ="list_photo">
+                    <a href="#" ontouchstart="">
+                    	<div class="ripple"></div>
+                        <div class="list_circ">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_man.jpg" width="58px" height="58px" alt="남자아바타"/>
+                        </div>
+                    </a>
+                </div>
+                <!-- // 사진영역 -->
+                <!-- 프로필영역 -->
+                <div class="list_profile">
+                    <a href="#"  ontouchstart="">
+                        <div class="photo_area">
+                        </div>
+                        <span class="list_chung">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/img_chung_s.gif" alt="청사초롱" />
+                        </span>
+                        <span class="badge_nw">결혼</span>
+                        <span class="list_nickname list_male">
+                            남자다잉
+                        </span>
+                        <span class="list_txt">
+                        일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다
+                        </span>
+                    </a>
+                </div>
+                <!-- // 프로필영역 -->
+                <!-- 리스트하단 -->
+                <div class="list_call">
+                    <a href="#" class="list_male" ontouchstart="">
+                        <img src="http://image.yeoboya.com/imgs/2016/img/ico_man.png" width="15px" height="13px" alt="남자">
+                         | 박○○님 | 46세 | 돼지띠 | 전남
+						<div class="list_btn">
+                            연락하기
+                        </div>
+                    </a>
+                </div>
+                <!-- // 리스트하단 -->
+            </li>
+            <li>
+                <!-- 사진영역 -->
+            	<div class ="list_photo">
+                    <a href="#" ontouchstart="">
+                    	<div class="ripple"></div>
+                        <div class="list_circ">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/avata_woman.jpg" width="58px" height="58px" alt="여자아바타"/>
+                        </div>
+                    </a>
+                </div>
+                <!-- // 사진영역 -->
+                <!-- 프로필영역 -->
+                <div class="list_profile">
+                    <a href="#" ontouchstart="">
+                        <div class="photo_area">
+                        </div>
+                        <span class="list_chung">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/img_chung_s.gif" alt="청사초롱" />
+                        </span>
+                        <span class="badge_rw">재혼</span>
+                        <span class="list_nickname list_female">
+                            여자다잉
+                        </span>
+                        <span class="list_txt">
+                        일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다
+                        </span>
+                    </a>
+                </div>
+                <!-- // 프로필영역 -->
+                <!-- 리스트하단 -->
+                <div class="list_call">
+                    <a href="#" class="list_female" ontouchstart="">
+                        <img src="http://image.yeoboya.com/imgs/2016/img/ico_woman.png" width="11" height="15" alt="여자">
+                         | 박○○님 | 46세 | 돼지띠 | 전남
+						<div class="list_btn">
+                            연락하기
+                        </div>
+                    </a>
+                </div>
+                <!-- // 리스트하단 -->
+            </li>
+            <li>
+                <!-- 사진영역 -->
+            	<div class ="list_photo">
+                    <a href="#" ontouchstart="">
+                    	<div class="ripple"></div>
+                        <div class="list_circ">
+                            <img src="http://image.yeoboya.com/imgs/2016/img/man.png" width="58px" height="58px" alt="남자사진"/>
+                        </div>
+                    </a>
+                </div>
+                <!-- // 사진영역 -->
+                <!-- 프로필영역 -->
+                <div class="list_profile">
+                    <a href="#" ontouchstart="">
+                        <div class="photo_area">
+                        </div>
+                        <span class="list_chung">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/img_chung_s.gif" alt="청사초롱" />
+                        </span>
+                        <span class="badge_rw">재혼</span>
+                        <span class="list_nickname list_male">
+                            남자다잉
+                        </span>
+                        <span class="list_txt">
+                        일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다
+                        </span>
+                    </a>
+                </div>
+                <!-- // 프로필하단 -->
+                <!-- 리스트하단 -->
+                <div class="list_call">
+                    <a href="#" class="list_male" ontouchstart="">
+                        <img src="http://image.yeoboya.com/imgs/2016/img/ico_man.png" width="15px" height="13px" alt="남자">
+                         | 박○○님 | 46세 | 돼지띠 | 전남
+						<div class="list_btn">
+                            연락하기
+                        </div>
+                    </a>
+                </div>
+                <!-- // 리스트하단 -->
+            </li>
+            <li>
+                <!-- 사진영역 -->
+            	<div class ="list_photo">
+                    <a href="#" ontouchstart="">
+                    	<div class="ripple"></div>
+                        <div class="list_circ">
+                            <img src="http://image.yeoboya.com/imgs/2016/img/woman.png" width="58px" height="58px" alt="여자사진"/>
+                        </div>
+                    </a>
+                </div>
+                <!-- // 사진영역 -->
+                <!-- 프로필하단 -->
+                <div class="list_profile">
+                    <a href="#" ontouchstart="">
+                        <div class="photo_area">
+                        </div>
+                        <span class="list_chung">
+                            <img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img2/img_chung_s.gif" alt="청사초롱" />
+                        </span>
+                        <span class="badge_ㅜw">결혼</span>
+                        <span class="list_nickname list_female">
+                            여자다잉
+                        </span>
+                        <span class="list_txt">
+                        일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다 일찍 결혼하고 싶습니다
+                        </span>
+                    </a>
+                </div>
+                <!-- // 프로필하단 -->
+                <!-- 리스트하단 -->
+                <div class="list_call">
+                    <a href="#" class="list_female" ontouchstart="">
+                        <img src="http://image.yeoboya.com/imgs/2016/img/ico_woman.png" width="11" height="15" alt="여자">
+                         | 박○○님 | 46세 | 돼지띠 | 전남
+						<div class="list_btn">
+                            연락하기
+                        </div>
+                    </a>
+                </div>
+                <!-- 리스트하단 -->
+            </li>
+    	</ul>
+    </div>
+    <!-- // 메인 리스트 -->
+    <!-- 더보기 -->
+    <div class="more_btn">
+    	<a href="#" class="">불러오는중...</a>
+    </div>
+    <!-- // 더보기 -->
+    <!-- 플로팅버튼 -->
+    <div class="float_wrap">
+        <div class="float_bg_modal"></div>
+        <div class="float_btn">플로팅버튼</div>
+        <div class="float_write">
+            <div class="float_txt">글쓰기/위로 올리기</div>
+            <a href="#"></a>
+        </div>
+        <div class="float_info">
+            <div class="float_txt">내정보</div>
+            <a href="#"></a>
+        </div>
+    </div>
+    <!-- 플로팅버튼 //-->
+    <!-- 풋터 -->
+    <footer>
+    	(주)인포렉스 대표이사 박진. 사업자등록번호 409-81-49209<br />
+        광주광역시 서구 마륵동 165-27. 문의전화 1522-3379<br/>
+        결혼중개신고번호 광주-서구-국내-15-0003호
+    </footer>
+	<!-- // 풋터 -->
+    <!-- 위로 올리기 -->
+    <a href="#" class="go_up" ontouchstart="">
+    	<img src="http://image.yeoboya.com/imgs/new_wedding/mobile/img/btn_jump_up.png" width="35" height="35" alt="위로올리기"/>
+    </a>
+    <!-- // 위로 올리기 -->
+</div>
+</body>
+</html>
+
