@@ -140,7 +140,7 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 #content .list_call{position:relative; width:100%; height:30px; border-top:1px solid #efefef; border-radius:0 0 3px 3px; box-sizing:border-box; background:rgba(0,0,0,0.03);}
 #content .list_call a{position:relative; display:block; width:100%; height:100%; line-height:28px; border-radius:0 0 3px 3px; box-sizing:border-box; font-size:13px; font-weight:600; background-color:#f9f9f8; overflow:hidden;}
 #content .list_call a img{vertical-align:middle; padding:0 5px 0 10px;}
-#content .list_call a .list_btn{position:absolute; bottom:0; right:0; z-index:50; padding:8px 0; box-sizing:border-box; border-radius:0 0 2px 0; width:80px; height:30px; line-height:14px; background-color:#8468a3; color:#fff; font-size:14px; font-weight:600; text-align:center; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out;}
+#content .list_call a .list_btn{position:absolute; bottom:0; right:0; z-index:50; padding:9px 0 7px 0; box-sizing:border-box; border-radius:0 0 2px 0; width:80px; height:30px; line-height:14px; background-color:#8468a3; color:#fff; font-size:14px; font-weight:600; text-align:center; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out;}
 #content .list_call a .list_btn:hover{background-color:#8468a4;}
 
 @keyframes push {
