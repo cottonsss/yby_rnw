@@ -44,6 +44,7 @@
 .rslt_box p{padding:6px 0; font-size:15px; font-weight:700; color:#363636; text-align:center;}
 .rslt_box .slct_rslt{position:relative; width:100%; height:auto; padding:0 4px 10px 4px; box-sizing:border-box; overflow:auto;}
 .rslt_box .slct_rslt a{background:#d5cddd url( http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/btn_slct_dlt.png) no-repeat 90% center; background-size:11px 11px; font-weight:700; color:#363636; line-height:13px; text-align:center;}
+.rslt_box .slct_rslt a:active{background:#cfc4d9 url( http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/btn_slct_dlt.png) no-repeat 90% center; background-size:11px 11px;}
 .rslt_box .slct_rslt span.slct_5{float:left; width:20%; height:auto;}
 .rslt_box .slct_rslt span.slct_5 a{width:80%; height:100%; margin:0 auto; border-radius:6px; padding:10px 14px 10px 0; box-sizing:border-box; font-size:13px;}
 .rslt_box .slct_rslt span.slct_4{float:left; width:25%; height:auto;}
