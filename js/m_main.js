@@ -18,13 +18,16 @@ $(document).ready(function(){
 	});
 
 	/* 필터 click시 드롭선택 슬라이드토글*/
-	$("#nav .filter > li:nth-child(1) > a").click(function(){
-		$(this).toggleClass("filter_more_on");
-		$("#nav .filter > li:nth-child(1) .dropslct_wrap").slideToggle(200);
-	});
-	$("#nav .filter > li:nth-child(3) > a").click(function(){
-		$(this).toggleClass("filter_more_on");
-		$("#nav .filter > li:nth-child(3) .dropslct_wrap").slideToggle(200);
+	$("#nav .filter > li").click(function(){
+        var li_idx = $(this).index("#nav .filter > li");
+        //console.log(li_idx);
+        if(li_idx == 0 || li_idx == 2){
+            $("#nav").toggleClass("nav_z_up");
+            $(this).toggleClass("drop_index");
+            $(this).find("a").toggleClass("filter_more_on");
+            $(this).find(".bg_black2").toggleClass("hidden");
+            $(this).find(".dropslct_wrap").slideToggle(200);
+        }
 	});
 
 	/* 롤링 click시 롤링메세지 열림 */
@@ -41,4 +44,10 @@ $(document).ready(function(){
 		$(this).toggleClass("float_wrap_on");
 		$(".float_bg_modal").fadeToggle(200);
 	});
+
+
+    /* 드롭메뉴 체크박스 */
+    $(".chk_list ul li a").click(function(){
+        $(this).toggleClass("slct_active");
+    });
 });

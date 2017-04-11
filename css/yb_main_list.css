@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* 헤더 로고 */
 #header .main_logo{position:relative; width:44px; padding:5.5px 10px;}
 #header .main_logo a{display:block; width:100%; height:100%;}
@@ -11,58 +13,26 @@
 #header .btn_write{position:absolute; top:7.5px; right:14px; width:74px; padding-left:20px; background:rgba(255,255,255,0.9) url(
 http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px center no-repeat; background-size:13px 15px;}
 
-/********** 전체보기 **********/
-/* 전체보기 버튼 */
-.dropmenu_wrap{position:absolute; top:7.5px; right:96px; width:90px; height:auto;}
-.dropmenu_wrap .btn_menu{position:relative; width:100%; box-shadow:inset 0 0 0 0 #fff; transition-property:box-shadow, color; -webkit-transition-property:box-shadow, color; -ms-transition-property:box-shadow, color; -moz-transition-property:box-shadow, color; -o-transition-property:box-shadow, color; transition-duration:0.2s; -webkit-transition-duration:0.2s; -ms-transition-duration:0.2s; -moz-transition-duration:0.2s; -o-transition-duration:0.2s; transition-timing-function:ease-in-out; -webkit-transition-timing-function:ease-in-out; -ms-transition-timing-function:ease-in-out; -moz-transition-timing-function:ease-in-out; -o-transition-timing-function:ease-in-out;}
-.dropmenu_wrap .btn_menu_click{color:#fff!important; background-color:#9b83b4!important; border-radius:5px 5px 0 0!important; border-bottom:2px solid #c0b4cd!important;}
-.dropmenu_wrap .new_icon{position:absolute; top:-5px; right:-7px;}
-
-/* 전체보기 드롭다운 */
-.dropmenu_wrap ul{position:relative; top:-1px; width:100%; height:auto; padding:0 5px; box-sizing:border-box; background-color:#fff; border-radius:0 0 5px 5px; border:1px solid #bcadcd;}
-.dropmenu_wrap ul li{position:relative; width:100%; height:48px; box-sizing:border-box; border-bottom:1px solid #e1e1e1;}
-@media(min-width:360px){
-    .dropmenu_wrap ul li{height:52px;}
-}
-.dropmenu_wrap ul li:active{background-color:#efefef;}
-.dropmenu_wrap ul li:last-of-type{border-bottom:none;}
-.dropmenu_wrap ul li a{position:relative; display:block; width:100%; height:100%; opacity:0; background-position:center 5px; background-repeat:no-repeat; background-size:25px 25px; transition:all 0.2s ease-in-out; -webkit-transition:all 0.2s ease-in-out; -ms-transition:all 0.2s ease-in-out; -moz-transition:all 0.2s ease-in-out; -o-transition:all 0.2s ease-in-out;}
-.dropmenu_wrap ul li .dropmenu_fade{opacity:1}
-.dropmenu_wrap ul li:nth-of-type(1) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_msg.png); transition-delay:0.04s; -webkit-transition-delay:0.04s; -ms-transition-delay:0.04s; -moz-transition-delay:0.04s; -o-transition-delay:0.04s;}
-.dropmenu_wrap ul li:nth-of-type(2) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_mpro.png); transition-delay:0.08s; -webkit-transition-delay:0.08s; -ms-transition-delay:0.08s; -moz-transition-delay:0.08s; -o-transition-delay:0.08s;}
-.dropmenu_wrap ul li:nth-of-type(3) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_spro.png); transition-delay:0.12s; -webkit-transition-delay:0.12s; -ms-transition-delay:0.12s; -moz-transition-delay:0.12s; -o-transition-delay:0.12s; }
-.dropmenu_wrap ul li:nth-of-type(4) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_lv.png); transition-delay:0.16s; -webkit-transition-delay:0.16s; -ms-transition-delay:0.16s; -moz-transition-delay:0.16s; -o-transition-delay:0.16s;}
-.dropmenu_wrap ul li:nth-of-type(5) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_bl.png); transition-delay:0.20s; -webkit-transition-delay:0.20s; -ms-transition-delay:0.20s; -moz-transition-delay:0.20s; -o-transition-delay:0.20s;}
-.dropmenu_wrap ul li:nth-of-type(6) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_item.png); transition-delay:0.24s; -webkit-transition-delay:0.24s; -ms-transition-delay:0.24s; -moz-transition-delay:0.24s; -o-transition-delay:0.24s;}
-.dropmenu_wrap ul li:nth-of-type(7) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_que.png); transition-delay:0.28s; -webkit-transition-delay:0.28s; -ms-transition-delay:0.28s; -moz-transition-delay:0.28s; -o-transition-delay:0.28s;}
-.dropmenu_wrap ul li:nth-of-type(8) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_info.png); transition-delay:0.32s; -webkit-transition-delay:0.32s; -ms-transition-delay:0.32s; -moz-transition-delay:0.32s; -o-transition-delay:0.32s;}
-.dropmenu_wrap ul li:nth-of-type(9) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_tk.png); transition-delay:0.32s; -webkit-transition-delay:0.32s; -ms-transition-delay:0.32s; -moz-transition-delay:0.32s; -o-transition-delay:0.32s; background-size:35px 25px;}
-.dropmenu_wrap ul li:nth-of-type(10) a{background-image:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_drop_more.png); transition-delay:0.36s; -webkit-transition-delay:0.36s; -ms-transition-delay:0.36s; -moz-transition-delay:0.36s; -o-transition-delay:0.36s;}
-.dropmenu_wrap ul li .dropmenu{position:absolute; bottom:1px; left:0; display:block; width:100%; height:auto; font-size:13px; text-align:center; color:#484848; font-weight:500; letter-spacing:-0.5px;}
-.dropmenu_wrap ul li:nth-of-type(2) a > span{font-size:11px;}
-
-.dropmenu_wrap ul li .count_alim{position:absolute; top:1px; right:11px; width:20px; height:20px; padding:4px 0; box-sizing:border-box; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/badge_allim.png) no-repeat center center; background-size:20px 20px;}
-#header .dropmenu_wrap ul li .count_alim span{display:block; width:100%; line-height:12px; color:#fff; font-size:12px; font-weight:500; text-align:center;}
-
-/********** 배경 모달 **********/
-#bg_black1{position:absolute; top:0px; right:0; left:0; width:100%; height:100%; z-index:450; background:rgba(0,0,0,0.7);}
-
 /********** 필터 영역 **********/
-#nav{position:fixed; top:45px; left:0; z-index:300; width:100%; height:40px; background-color:#a389bf; box-shadow:0 2px 5px rgba(0,0,0,0.25);}
+#nav{position:fixed; top:45px; left:0; z-index:700; width:100%; height:40px; background-color:#a389bf; box-shadow:0 2px 5px rgba(0,0,0,0.25);}
 #nav .filter{position:relative; width:100%; height:100%;}
 #nav .filter:after{content:""; display:block; clear:both;}
-#nav .filter li{width:20%; height:auto; float:left;}
-#nav .filter li a{position:relative; display:block; padding:9.5px 0; line-height:21px; font-weight:500; color:#fff; text-align:center; vertical-align:middle;}
-#nav .filter li a span{display:block; margin-left:6px; padding-right:16px; border-right:2px solid #ae99c4;  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 80% center; background-size:11px 8px; box-sizing:border-box;}
+#nav .filter li{position:relative; width:20%; height:auto; float:left; background: url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/bg_bar.png) no-repeat right 10px;
+    background-size: 2px 20px;
+    padding-right: 2px;
+    box-sizing: border-box;}
+#nav .filter li.drop_index{z-index:1000;}
+#nav .filter li a{position:relative; z-index:10; display:block; padding:9.5px 0; line-height:21px; font-weight:500; color:#fff; text-align:center; vertical-align:middle;}
+#nav .filter li a span{display:block; padding-right:13px; /*border-right:2px solid #ae99c4;*/  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 80% center; background-size:11px 8px; box-sizing:border-box;}
 #nav .filter li:nth-child(2) a span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 88% center; background-size:11px 8px;}
-#nav .filter li:nth-child(5) a span{border-right:none;}
+#nav .filter li:nth-child(5){background:none;}
 #nav .filter li a:active{background:rgba(0,0,0,0.05);}
 
 #nav .filter li a.filter_more_on{background-color:#9a81b4;}
 #nav .filter li a.filter_more_on span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_cls.png) no-repeat 80% center; background-size:11px 8px;}
 
 /* 드롭선택 */
-#nav .dropslct_wrap{display:none; position:relative; width:100%; height:auto; border-radius:0; box-shadow:0 2px 5px rgba(0,0,0,0.25);}
+#nav .dropslct_wrap{display:none; position:relative; z-index:10; width:100%; height:auto; border-radius:0; box-shadow:0 2px 5px rgba(0,0,0,0.25);}
 #nav .dropslct{position:relative; width:100%; height:45px; line-height:45px; background-color:#aa90c7; box-sizing:border-box; color:#fff; font-size:15px; text-align:center;}
 #nav .dropslct_active{background-color:#9a81b4; font-family:notokr-bold,sans-serif; font-weight:400;}
 
@@ -115,7 +85,7 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
     100% { -o-transform: scale(1.3); opacity: 0; }
 }
 #content .list_photo a:active .ripple{animation:rippling 0.2s linear 1; -webkit-animation:rippling 0.2s linear 1; -ms-animation:rippling 0.2s linear 1; -moz-animation:rippling 0.2s linear 1; -o-animation:rippling 0.2s linear 1;}
-#content .list_photo .list_circ{position:relative; width:60px; height:60px; margin:0 auto; border:2px solid #a389bf; border-radius:100%; box-sizing:border-box; text-align:center; overflow:hidden;}
+#content .list_photo .list_circ{position:relative; width:60px; height:60px; margin:0 auto; border:2px solid #cbbcdc; border-radius:100%; box-sizing:border-box; text-align:center; overflow:hidden;}
 
 /* 프로필 영역 */
 .list_male{color:#2891b6;} /* 남성컬러 */
@@ -165,8 +135,9 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 
 /******** 내글리스트/위로올리기btn ********/
 #content .yeo_list .my_list li{border-radius:0 0 3px 3px;}
-#content .yeo_list .my_list .list_photo{top:35px;}
-.list_profile_up{position:relative; width:100%; height:auto;  background-color:#ffe69b; box-sizing:border-box; border-radius:3px 3px 0 0; }
+#content .yeo_list .my_list .list_photo{top:38px;}
+.list_profile_up{position:relative; width:100%; height:auto; background-color:#f9c860; box-sizing:border-box; border-radius:3px 3px 0 0; }
+.list_profile_up:active{background-color:#f5be4b;}
 .list_profile_up a{width:100%; height:100%; padding:4px 0; border-radius:2px 2px 0 0; border-bottom:1px solid #d4d4d4;}
 .list_profile_up a span{display:block; width:96px; height:auto; margin:0 auto; padding:2px 0 2px 12px; border-radius:11.5px; text-align:center; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_pro_up.png) no-repeat 14px center; background-size:14px 12px; font-size:14px; font-weight:500; color:#535353;}
 
@@ -176,7 +147,7 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 .more_btn a{display:block; width:100%; height:35px; line-height:35px; font-size:16px; font-weight:500; text-align:center; border:1px solid #ddd; background-color:#efefef; box-sizing:border-box;}
 
 /*********** 플로팅버튼 ***********/
-.float_wrap{position:fixed; z-index:900; right:17px; bottom:60px; width:50px; height:auto;}
+.float_wrap{position:fixed; z-index:700; right:17px; bottom:60px; width:50px; height:auto;}
 
 .float_bg_modal{display:none; position:fixed; top:0; right:0; width:100%; height:100%; background:rgba(0,0,0,0.7);}
 .float_btn {position:relative; z-index:10; width:50px; height:50px; border-radius:100%; text-indent:-9999px; background:#f35a73 url(http://image.ilhaeyo.com/imgs/ilheayo_job/img01/btn_floating.png) no-repeat center center; background-size:17px 17px; transition:0.12s transform ease-in-out; cursor:pointer;}
@@ -186,7 +157,7 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 .float_info{position:absolute; top:-25px; right:0px; width:400%; height:50px; line-height:50px; transform:scale(0); transform-origin:87.5% center; opacity:0;}
 .float_info a{display:block; width:25%; height:100%; border-radius:100%; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile/img4/ico_myinfo.png) no-repeat center 13px; background-size:29px 23px; float:left;}
 .float_info a:active{background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile/img4/ico_myinfo.png) no-repeat center 13px; background-size:29px 23px; box-shadow:0px 2px 4px #383838; float:left;}
-.float_txt{width:75%; height:100%; padding-right:12px; box-sizing:border-box; font-size:15px; color:#fff; font-weight:700px; text-align:right; float:left;}
+.float_txt{width:75%; height:100%; padding-right:12px; box-sizing:border-box; font-size:15px; color:#fff; font-weight:700; text-align:right; float:left;}
 @keyframes up01 {
 0% {top:-25px; transform:scale(0); opacity:0;}
 100% {top:-70px; transform:scale(1); opacity:1;}

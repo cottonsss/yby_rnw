@@ -13,19 +13,29 @@ table {border-collapse:collapse; border-spacing:0;}
 td,th {padding:0}
 b,strong {font-weight:bold;}
 a {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; display:block; color:inherit; text-decoration:none; cursor:pointer;  -webkit-tap-highlight-color:rgba(255, 255, 255, 0); -webkit-tap-highlight-color: transparent;}
-a:link, a:hover, a:active. a:visited {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; display:block; color:inherit; text-decoration:none;}
+a:link, a:hover, a:active, a:visited {margin:0; padding:0; font-size:100%; vertical-align:baseline; background:transparent; display:block; color:inherit; text-decoration:none;}
 p {margin:0; padding:0;}
 
 *{margin:0; padding:0; -webkit-tap-highlight-color:rgba(255, 255, 255, 0);}
 .hidden{display:none;}
 
 /********** 폰트 **********/
-body{font-family: "Noto Sans KR", sans-serif; font-weight:400; color:#272727; font-size:15px;  letter-spacing:-0.5px;}
+body{font-family: "Noto Sans KR", sans-serif; font-weight:400; color:#444; font-size:15px;  letter-spacing:-0.5px;}
 
 /********** 여보야 기본 **********/
 #wrap{position:relative; margin:0; padding:0; width:100%; height:auto; background-color:#fff;}
-#header{position:fixed; top:0; left:0; z-index:500; margin:0; padding:0; width:100%; height:45px; background-color:#8468a4;}
-#header:after{content:""; display:block; clear:both;}
+/*#header{position:fixed; top:0; left:0; z-index:500; margin:0; padding:0; width:100%; height:45px; background-color:#8468a4;}
+#header:after{content:""; display:block; clear:both;}*/
+/* 상단헤더 공통사용 */
+#header {display:block; z-index:800; width:100%; height:45px; background-color:#8468a4;}
+.header_relative {position:relative; top:0; left:0; right:0;}
+.header_fixed {position:fixed; top:0; left:0; right:0;}
+#header .sub_header {width:100%; height:100%; padding:0 60px; box-sizing:border-box; color:#fff; font-size:18px; font-weight:700; line-height:45px; letter-spacing:-0.5px;}
+#header .header_btn {display:block; position:absolute; z-index:10; width:30px; height:30px; margin:7.5px 0; border:0; border-radius:3px; -webkit-appearance:none;}
+#header .header_btn a {display:block; width:100%; height:100%; text-indent:-9999px;}
+#header .header_btn a:active {background-color:rgba(0,0,0,.05);}
+#header .btn_back {top:0; left:16px; background:#ded3e7 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/btn_hd_back.png) no-repeat center center; background-size:10px 12px;}
+#header .btn_home {top:0; right:16px; background:#ded3e7 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/btn_hd_home.png) no-repeat center center; background-size:16px 14px;}
 
 /********** 풋터 **********/
 footer{position:relative; z-index:250; left:0; bottom:0; width:100%; height:auto; padding:3px 0; background-color:#636467; color:#fff; text-align:center; font-size:13px; line-height:20px;}
