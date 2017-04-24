@@ -63,8 +63,8 @@
 .pro_lst ul li .info_pro .pro_pic{float:left; width:52px; height:57px;}
 .pro_lst ul li .info_pro .pro_pic img.mem_pic{position:relative; width:52px; height:52px; border-radius:50%;} /* 프로필이미지 */
 .pro_lst ul li .info_pro .pro_pic img.nw_badge{position:relative; width:32px; height:17px; top:-17px; padding:0 10px;} /* 결혼뱃지 */
-.pro_lst ul li .info_pro .pro_pic img.rw_badge{position:absolute; width:32px; height:17px; top:47px; padding:0 10px;} /* 재혼뱃지 */
-.pro_lst ul li .info_pro .pro_nick{width:100%; height:auto; padding:6.5px 60px 6.5px 60px; box-sizing:border-box;}
+.pro_lst ul li .info_pro .pro_pic img.rw_badge{position:relative; width:32px; height:17px; top:-17px; padding:0 10px;} /* 재혼뱃지 */
+.pro_lst ul li .info_pro .pro_nick{width:100%; height:57px; padding:6.5px 60px 6.5px 60px; box-sizing:border-box;}
 @media(min-width:360px){
 .pro_lst ul li .info_pro .pro_nick{padding:6.5px 70px 6.5px 60px;}
 }
