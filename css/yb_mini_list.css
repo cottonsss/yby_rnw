@@ -64,15 +64,12 @@
 .pro_lst ul li .info_pro .pro_pic img.mem_pic{position:relative; width:52px; height:52px; border-radius:50%;} /* 프로필이미지 */
 .pro_lst ul li .info_pro .pro_pic img.nw_badge{position:relative; width:32px; height:17px; top:-17px; padding:0 10px;} /* 결혼뱃지 */
 .pro_lst ul li .info_pro .pro_pic img.rw_badge{position:relative; width:32px; height:17px; top:-17px; padding:0 10px;} /* 재혼뱃지 */
-.pro_lst ul li .info_pro .pro_nick{width:100%; height:57px; padding:6.5px 60px 6.5px 60px; box-sizing:border-box;}
-@media(min-width:360px){
-.pro_lst ul li .info_pro .pro_nick{padding:6.5px 70px 6.5px 60px;}
-}
-.pro_lst ul li .info_pro .no_pd_left{padding:6.5px 16px 6.5px 60px;}/* 열람정보없을경우 */
-.pro_lst ul li .info_pro .pro_nick .mem_nic{font-size:12px; font-weight:700;}
+.pro_lst ul li .info_pro .pro_nick{width:100%; height:57px; padding:10px 60px 10px 60px; box-sizing:border-box;}
+.pro_lst ul li .info_pro .no_pd_left{padding:10px 16px 10px 60px}/* 열람정보없을경우 */
+.pro_lst ul li .info_pro .pro_nick .mem_nic{display:block; font-size:12px; line-height:12px; font-weight:700;}
 .pro_lst ul li .info_pro .pro_nick .nic_m{color:#19a1d1;} /* 남성닉네임컬러 */
 .pro_lst ul li .info_pro .pro_nick .nic_fm{color:#f65a52;} /* 여성닉네임컬러 */
-.pro_lst ul li .info_pro .pro_nick .open_date{display:block; margin-top:6px; font-size:11px; color:#46292b;}
+.pro_lst ul li .info_pro .pro_nick .open_date{display:block; padding-top:13px; font-size:11px; line-height:11px; color:#46292b;}
 .pro_lst ul li .info_pro .pro_open{position:absolute; top:9px; right:10px; width:48px; padding-bottom:8px; height:auto; font-size:11px; line-height:17px; color:#fff; text-align:center;}
 .pro_lst ul li .info_pro .pro_open span.open_nm{display:block; width:100%; height:100%; padding:6px 0; border-radius:3px; background:#8468a4 url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/bullet_info_open_nm.png) center 110% no-repeat; background-size:14px 7px;} /* 기본정보열람 */
 .pro_lst ul li .info_pro .pro_open span.open_all{display:block; width:100%; height:100%; padding:6px 0; border-radius:3px; background:#25a6cd;} /* 전체정보열람 */
@@ -80,7 +77,7 @@
 .pro_lst ul li .info_pro .pro_open span.open_all span.tri_all{position:absolute; width:0; height:0; top:41px; right:7px; border-right:13px solid transparent; border-top:15px solid #25a6cd; transform:rotate(17deg); text-indent:-9999px;} /* 전체정보열람bullet */
 
 /*-------- 신규가입회원리스트 --------*/
-.pro_lst ul li .new_mem_lst .pro_nick{width:100%; height:57px; padding:6.5px 95px 6.5px 60px; box-sizing:border-box;}
+.pro_lst ul li .new_mem_lst .pro_nick{width:100%; height:57px; padding:10px 95px 10px 60px; box-sizing:border-box;}
 .pro_lst ul li .new_mem_lst .btn_itrst{position:absolute; width:46px; height:40px; top:15px; right:56px;}
 .pro_lst ul li .new_mem_lst .btn_itrst a{width:100%; height:100%; border:1px solid #ff485e; border-radius:5px; box-sizing:border-box; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/btn_itrst.png) center center no-repeat; background-size:40px 24px; text-indent:-9999px;}
 .pro_lst ul li .new_mem_lst .btn_contact{position:absolute; width:46px; height:40px; top:15px; right:6px;}
@@ -91,10 +88,9 @@
 .pro_lst_none{position:fixed; width:100%; height:100%; border-top:1px solid #d1d1d1; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile/img3/no_member_list.jpg) center 28% no-repeat; background-size:138px 141px; text-indent:-9999px;}
 
 @media(min-width:360px){
-.pro_lst ul li .info_pro .pro_nick .mem_nic{font-size:13px;}
+.pro_lst ul li .info_pro .pro_nick .mem_nic{font-size:13px; line-height:13px;}
 .pro_lst ul li .info_pro .pro_open{width:54px; font-size:12px;}
 .pro_lst ul li .new_mem_lst{padding:6.5px 10px 6.5px 10px;}/* 체크박스x */
-.pro_lst ul li .new_mem_lst .pro_nick{padding:6.5px 100px 6.5px 60px;}
 .pro_lst ul li .new_mem_lst .btn_itrst{right:62px;}
 .pro_lst ul li .new_mem_lst .btn_contact{right:10px;}
 }
