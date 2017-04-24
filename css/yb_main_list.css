@@ -18,12 +18,10 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 #nav .filter{position:relative; width:100%; height:100%;}
 #nav .filter:after{content:""; display:block; clear:both;}
 #nav .filter li{position:relative; width:20%; height:auto; float:left; background: url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/bg_bar.png) no-repeat right 10px;
-    background-size: 2px 20px;
-    padding-right: 2px;
-    box-sizing: border-box;}
+background-size: 2px 20px; padding-right: 2px; box-sizing: border-box;}
 #nav .filter li.drop_index{z-index:1000;}
-#nav .filter li a{position:relative; z-index:10; display:block; padding:9.5px 0; line-height:21px; font-weight:500; color:#fff; text-align:center; vertical-align:middle;}
-#nav .filter li a span{display:block; padding-right:13px; /*border-right:2px solid #ae99c4;*/  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 80% center; background-size:11px 8px; box-sizing:border-box;}
+#nav .filter li a{position:relative; width:100%; height:100%; z-index:10; display:block; padding:9.5px 0; line-height:21px; font-weight:500; color:#fff; text-align:center; vertical-align:middle; box-sizing:border-box;}
+#nav .filter li a.flter_tit span{display:block; padding-right:13px; background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 80% center; background-size:11px 8px; box-sizing:border-box;}
 #nav .filter li:nth-child(2) a span{background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_slct_op.png) no-repeat 88% center; background-size:11px 8px;}
 #nav .filter li:nth-child(5){background:none;}
 #nav .filter li a:active{background:rgba(0,0,0,0.05);}
@@ -100,8 +98,8 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 #content .list_profile .list_chung_on{width:36px;}
 #content .list_profile .list_chung img{width:100%; height:auto;}
 #content .list_profile .list_nickname{position:relative; display:inline-block; width:auto; height:auto; padding:0 7px 0 1px; font-size:16px; background-color:transparent; vertical-align:middle;}
-#content .list_profile .list_nickname .badge_nw{display:inline-block; width:29px; height:auto;  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_nw.png) no-repeat center center; background-size:29px 16px; text-indent:-9999px;}
-#content .list_profile .list_nickname .badge_rw{display:inline-block; width:29px; height:auto;  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_rw.png) no-repeat center center; background-size:29px 16px; text-indent:-9999px;}
+#content .list_profile .list_nickname .badge_nw{display:inline-block; width:32px; height:auto;  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_nw.png) no-repeat center center; background-size:32px 17px; text-indent:-9999px;}
+#content .list_profile .list_nickname .badge_rw{display:inline-block; width:32px; height:auto;  background:url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_rw.png) no-repeat center center; background-size:32px 17px; text-indent:-9999px;}
 #content .list_profile .list_txt{position:relative; width:auto; height:auto; line-height:24px; background-color:transparent; vertical-align:middle;}
 
 /* 리스트 하단 */
@@ -136,9 +134,9 @@ http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_write.png) 8px ce
 /******** 내글리스트/위로올리기btn ********/
 #content .yeo_list .my_list li{border-radius:0 0 3px 3px;}
 #content .yeo_list .my_list .list_photo{top:38px;}
-.list_profile_up{position:relative; width:100%; height:auto; background-color:#f9c860; box-sizing:border-box; border-radius:3px 3px 0 0; }
-.list_profile_up:active{background-color:#f5be4b;}
+.list_profile_up{position:relative; width:100%; height:auto; background-color:#ffd689; box-sizing:border-box; border-radius:3px 3px 0 0; }
 .list_profile_up a{width:100%; height:100%; padding:4px 0; border-radius:2px 2px 0 0; border-bottom:1px solid #d4d4d4;}
+.list_profile_up a:active{background-color:#f9cb76;}
 .list_profile_up a span{display:block; width:96px; height:auto; margin:0 auto; padding:2px 0 2px 12px; border-radius:11.5px; text-align:center; background:#fff url(http://image.yeoboya.com/imgs/new_wedding/mobile_rnw/img01/ico_pro_up.png) no-repeat 14px center; background-size:14px 12px; font-size:14px; font-weight:500; color:#535353;}
 
 

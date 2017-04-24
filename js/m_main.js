@@ -24,7 +24,7 @@ $(document).ready(function(){
         if(li_idx == 0 || li_idx == 2){
             $("#nav").toggleClass("nav_z_up");
             $(this).toggleClass("drop_index");
-            $(this).find("a").toggleClass("filter_more_on");
+            $(this).find("a.flter_tit").toggleClass("filter_more_on");
             $(this).find(".bg_black2").toggleClass("hidden");
             $(this).find(".dropslct_wrap").slideToggle(200);
         }
@@ -50,4 +50,19 @@ $(document).ready(function(){
     $(".chk_list ul li a").click(function(){
         $(this).toggleClass("slct_active");
     });
+
+    /* 프로필관련페이지 체크박스 */
+    $(".pro_lst .all_chk_box a").click(function(){
+        $(this).toggleClass("chk_slct");
+    });
+
+    $(".pro_lst ul li .chkbox_pro a").click(function(){
+        $(this).toggleClass("chk_slct");
+    });
+
+     $(" .see_pro_top .btn_jn_alim a").click(function(){
+        $(this).toggleClass("a_active");
+    });
+
 });
+

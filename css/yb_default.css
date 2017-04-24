@@ -20,7 +20,7 @@ p {margin:0; padding:0;}
 .hidden{display:none;}
 
 /********** 폰트 **********/
-body{font-family: "Noto Sans KR", sans-serif; font-weight:400; color:#444; font-size:15px;  letter-spacing:-0.5px;}
+body{font-family: "Noto Sans KR", "notokr-regular", sans-serif; font-weight:500; color:#444; font-size:15px;  letter-spacing:-0.5px;}
 
 /********** 여보야 기본 **********/
 #wrap{position:relative; margin:0; padding:0; width:100%; height:auto; background-color:#fff;}
